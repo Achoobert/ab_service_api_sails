@@ -15,7 +15,7 @@
  * The only time the session info is set is during the auth/login.js
  * routine.  After a successful login, the session.user_id is set.
  */
-
+//
 // A. Importing code while node.js starts up
 const authCAS = require(__dirname + "/../lib/authUserCAS.js");
 const authLocal = require(__dirname + "/../lib/authUserLocal.js");
